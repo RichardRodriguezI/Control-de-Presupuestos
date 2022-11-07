@@ -8,7 +8,7 @@ const Modal = ({setModal, modalAnimar,setmodalAnimar, guardarGastos, editarGasto
 
     const [nombre, setNombre] = useState("");
     const [categoria, setCategoria] = useState("");
-    const [cantidad, setCantidad] = useState(0)
+    const [cantidad, setCantidad] = useState()
     const [fecha, setFecha ] = useState("");
     const [id, setId ] = useState("");
     const [mensaje, setMensaje] = useState("")
