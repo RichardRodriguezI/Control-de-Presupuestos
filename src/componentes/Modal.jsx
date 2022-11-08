@@ -71,7 +71,7 @@ const Modal = ({setModal, modalAnimar,setmodalAnimar, guardarGastos, editarGasto
                             <input
                             id='nombre'
                             type="text"
-                            placeholder="añade el Nombre del Gasto"
+                            placeholder="Añade el Nombre del Gasto"
                             value={nombre}
                             onChange={ e => setNombre(e.target.value) }
                             />
