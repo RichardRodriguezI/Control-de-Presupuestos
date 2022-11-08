@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import { CircularProgressbar, buildStyles} from "react-circular-progressbar"
+import { CircularProgressbar, buildStyles, customCss} from "react-circular-progressbar"   
 import "react-circular-progressbar/dist/styles.css"
 import swal from "sweetalert";
 
 const ControlPresupuesto = ({gastos, presupuesto, setPresupuesto, setGastos, setIsvalidPresupuesto}) => {
-
+    
     const [disponible, setDisponible] = useState(0)
     const [gastado, setGastado ] = useState(0);
     const [porcentaje, setPorcentaje ] = useState(0)
@@ -50,8 +50,10 @@ const ControlPresupuesto = ({gastos, presupuesto, setPresupuesto, setGastos, set
 
 
     }
-
+ 
     return (  
+        <>
+
         <div className="contenedor-presupuesto contenedor sombra dos-columnas">
                 <div>
                     <CircularProgressbar
@@ -87,6 +89,7 @@ const ControlPresupuesto = ({gastos, presupuesto, setPresupuesto, setGastos, set
 
                 </div>
         </div>
+        </>
     );
 }
  
