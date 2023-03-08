@@ -63,7 +63,7 @@ const trailingActions = () => (
 
                     <img 
                     src={imagenesObj[categoria]}
-                    alt="icono gasto"
+                    alt="icono del gasto"
                     />
                 <div className="descripcion-gasto">
                     <p className="categoria">{categoria}</p>

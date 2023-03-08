@@ -17,7 +17,7 @@ function Filtros({filtro, setFiltro}) {
                                 <option value="gasto">Gastos</option>
                                 <option value="ocio">Ocio</option>
                                 <option value="suscripciones">Suscripciones</option>
-                                <option value="suscripciones">Belleza</option>
+                                <option value="belleza">Belleza</option>
                             </select>
         </div>
     </form>
