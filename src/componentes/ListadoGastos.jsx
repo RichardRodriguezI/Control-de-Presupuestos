@@ -5,7 +5,7 @@ const ListadoGastos = ({gastos, setEditarGasto, eliminarGasto, filtro, gastosFil
          
            { filtro ? (
               <>
-                   <h2>{gastosFiltrados.length ? 'Gastos' : 'No Hay Gastos En estas Categoria'}</h2>
+                   <h2>{gastosFiltrados.length ? 'Gastos' : 'No hay Gastos en esta Categoria'}</h2>
                    {gastosFiltrados.map ( gasto => (
                 <Gasto 
                 key={gasto.id}

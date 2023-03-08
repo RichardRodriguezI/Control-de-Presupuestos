@@ -26,7 +26,7 @@ import iconoGasto from '../img/nuevo-gasto.svg';
     ocio : iconoOcio,
     salud : iconoSalud,
     suscripciones : iconoSuscripciones,
-    gasto : iconoGasto 
+    gasto : iconoGasto, 
  }
 
 const Gasto = ({ gasto,setEditarGasto, eliminarGasto }) => {
@@ -36,7 +36,7 @@ const leadingActions = () => (
     <LeadingActions>
         <SwipeAction onClick={() => setEditarGasto(gasto)}>
             Editar
-        </SwipeAction>
+        </SwipeAction> 
     </LeadingActions>
 )
 const trailingActions = () => (
