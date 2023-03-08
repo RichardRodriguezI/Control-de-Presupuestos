@@ -100,6 +100,7 @@ const Modal = ({setModal, modalAnimar,setmodalAnimar, guardarGastos, editarGasto
                                 <option value="casa"> Casa</option>
                                 <option value="gasto">Gastos</option>
                                 <option value="ocio">Ocio</option>
+                                <option value="belleza">Belleza</option>
                                 <option value="suscripciones">Suscripciones</option>
                             </select>
                         </div>
